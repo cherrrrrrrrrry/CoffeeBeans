@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/anim.css">
+    <link href="img/icon.png" rel="shortcut icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" async src="js/script.js"></script>
+    <script type="text/javascript" async src="js/specialOffers.js"></script>
+    <script type="text/javascript" async src="js/novelties.js"></script>  
+    <title>CoffeeBeans - сеть магазинов кофе в Москве и Московской области</title>
+  </head>
+  <body>
+		<header class="d-flex justify-content-between align-items-center">
+			<div class="logo" id="logo">
+				<a href="index.html">
+          <img src="img/logo.png" alt="logo" class="img-fluid">
+        </a>
+			</div>
+			<nav class="navbar">
+				<ul class="nav">
+					<li class="nav-item d-none d-md-block dropdown">
+						<a class="nav-link text-light dropdown-toggle" data-toggle="dropdown" href="https://vk.com" role="button" aria-haspopup="true" aria-expanded="false">Меню</a>
+						<div class="dropdown-menu dropdown-menu-right">
+      				<a class="dropdown-item" href="#">Капучино</a>
+              <a class="dropdown-item" href="#">Американо<span class="badge badge-danger badge-pill ml-1">Хит продаж!</span></a>
+              <a class="dropdown-item" href="#">Латте</a>
+      				<a class="dropdown-item" href="#">Глясе</a>
+      				<a class="dropdown-item" href="#">Ристретто</a>
+              <a class="dropdown-item" href="#">Эспрессо<span class="badge badge-success badge-pill ml-1">Новинка!</span></a>
+      			</div>
+					</li>
+          <li class="nav-item d-none d-md-block"><a href="#" class="nav-link text-light">Акции</a></li>
+          <li class="nav-item d-none d-md-block"><a href="#" class="nav-link text-light">Адреса</a></li>
+					<li class="nav-item d-none d-md-block dropdown">
+						<a class="nav-link text-light dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">О нас</a>
+    				<div class="dropdown-menu dropdown-menu-right">
+			      	<a class="dropdown-item" href="#">Контакты</a>
+      				<a class="dropdown-item" href="#">Новости</a>
+      				<a class="dropdown-item" href="#">Отзывы</a>
+      				<a class="dropdown-item" href="#">Блог</a>
+      			</div>
+  				</li>
+				</ul>
+			</nav>
+      <div class="profile d-none d-md-block mr-3">
+        <a href="#" title="profile">
+          <img src="img/profile.png" alt="profile">
+        </a>
+      </div>
+      <div class="dropdown d-block d-md-none hamburger nav">
+        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="text-white bg-transparent pt-3 pb-3 pr-4 pl-4 border-0 h1 m-1">&#9776;</button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="#">Меню</a>
+          <a class="dropdown-item" href="#">Акции</a>
+          <a class="dropdown-item" href="#">Адреса</a>
+          <a class="dropdown-item" href="#">О нас</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"><img src="img/profile-gray.png" alt="profile" class="profile-photo">Аккаунт</a>
+        </div>
+      </div>
+		</header>
+    <div class="slider pt-5">
+      <div id="sliderIndicators" class="carousel slide" data-ride="carousel" data-pause="false">
+        <ol class="carousel-indicators">
+          <li data-target="#sliderIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#sliderIndicators" data-slide-to="1"></li>
+          <li data-target="#sliderIndicators" data-slide-to="2"></li>
+          <li data-target="#sliderIndicators" data-slide-to="3"></li>
+          <li data-target="#sliderIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item slider-item active">
+            <img class="d-block w-100" src="img/first-slide.jpg" alt="first slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Первый слайд</h5>
+              <p>Описание первого слайда</p>
+            </div>
+          </div>
+          <div class="carousel-item slider-item">
+            <img class="d-block w-100" src="img/second-slide.jpg" alt="second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Второй слайд</h5>
+              <p>Описание второго слайда</p>
+            </div>
+          </div>
+          <div class="carousel-item slider-item">
+            <img class="d-block w-100" src="img/third-slide.jpg" alt="third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Третий слайд</h5>
+              <p>Описание третьего слайда</p>
+            </div>
+          </div>
+          <div class="carousel-item slider-item">
+            <img class="d-block w-100" src="img/fourth-slide.jpg" alt="fourth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Четвёртый слайд</h5>
+              <p>Описание четвёртого слайда</p>
+            </div>
+          </div>
+          <div class="carousel-item slider-item">
+            <img class="d-block w-100" src="img/fifth-slide.jpg" alt="fifth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Пятый слайд</h5>
+              <p>Описание пятого слайда</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu menu-desktop">
+      <h2 class="text-center pt-4 pb-4 d-none d-md-block">Меню</h2>
+      <div id="menuDesktopIndicators" class="carousel slide container justify-content-center align-items-center d-none d-md-flex" data-ride="carousel" data-pause="hover" data-interval="4000">
+        <div class="card-deck carousel-inner pb-4">
+          <div class="carousel-item active menu-item">
+            <div class="cards d-flex">
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <div class="card-img-wrapper">
+                    <img class="card-img-top" src="img/cappuccino.jpg" alt="card img">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Капучино</h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">299 руб.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <div class="card-img-wrapper">
+                    <img class="card-img-top" src="img/americano.jpg" alt="card img">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Американо <span class="badge badge-danger badge-pill">Хит продаж!</span></h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">249 руб.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <div class="card-img-wrapper">
+                    <img class="card-img-top" src="img/latte.jpg" alt="card img">
+                  </div> 
+                  <div class="card-body">
+                    <h5 class="card-title">Латте</h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">299 руб.</p>
+                  </div>
+                </a>
+              </div> 
+            </div>
+          </div>
+          <div class="carousel-item menu-item">
+            <div class="cards d-flex">
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <div class="card-img-wrapper">
+                    <img class="card-img-top" src="img/glasse.jpg" alt="card img">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Глясе</h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">249 руб.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <div class="card-img-wrapper">
+                    <img class="card-img-top" src="img/ristretto.jpg" alt="card img">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Ристретто</h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">349 руб.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <div class="card-img-wrapper">
+                    <img class="card-img-top" src="img/espresso.jpg" alt="card img">
+                  </div> 
+                  <div class="card-body">
+                    <h5 class="card-title">Эспрессо <span class="badge badge-pill badge-success">Новинка!</span></h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">149 руб.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#menuDesktopIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Назад</span>
+        </a>
+        <a class="carousel-control-next" href="#menuDesktopIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Вперёд</span>
+        </a>
+      </div>
+    </div>
+    <div class="menu menu-mobile">
+      <h2 class="text-center pt-4 pb-4 d-block d-md-none">Меню</h2>
+      <div id="menuMobileIndicators" class="carousel slide container justify-content-center align-items-center d-sm-flex d-md-none" data-ride="carousel" data-pause="hover" data-interval="4500">
+        <div class="card-deck carousel-inner">
+          <div class="carousel-item active menu-item pb-4">
+            <div class="cards d-flex">
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <img class="card-img-top" src="img/cappuccino.jpg" alt="card img">
+                  <div class="card-body">
+                    <h5 class="card-title">Капучино</h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">299 руб.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item menu-item pb-4">
+            <div class="cards d-flex">
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <img class="card-img-top" src="img/americano.jpg" alt="card img">
+                  <div class="card-body">
+                    <h5 class="card-title">Американо <span class="badge badge-pill badge-danger">Хит продаж!</span></h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">249 руб.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item menu-item pb-4">
+            <div class="cards d-flex">
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <img class="card-img-top" src="img/latte.jpg" alt="card img">
+                  <div class="card-body">
+                    <h5 class="card-title">Латте</h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">299 руб.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item menu-item pb-4">
+            <div class="cards d-flex">
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <img class="card-img-top" src="img/glasse.jpg" alt="card img">
+                  <div class="card-body">
+                    <h5 class="card-title">Глясе</h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">249 руб.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item menu-item pb-4">
+            <div class="cards d-flex">
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <img class="card-img-top" src="img/ristretto.jpg" alt="card img">
+                  <div class="card-body">
+                    <h5 class="card-title">Ристретто</h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">349 руб.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item menu-item pb-4">
+            <div class="cards d-flex">
+              <div class="card border-0">
+                <a href="#" class="menu-link rounded">
+                  <img class="card-img-top" src="img/espresso.jpg" alt="card img">
+                  <div class="card-body">
+                    <h5 class="card-title">Эспрессо <span class="badge badge-pill badge-success">Новинка!</span></h5>
+                    <div class="dropdown-divider"></div>
+                    <p class="card-text">149 руб.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#menuMobileIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Назад</span>
+        </a>
+        <a class="carousel-control-next" href="#menuMobileIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Вперёд</span>
+        </a>
+      </div>
+    </div>
+    <div id="carouselNewsIndicators" class="carousel slide news" data-ride="carousel" data-interval="false">
+      <div class="news-slider container">
+        <ol class="controls pt-3 container">
+          <li data-target="#carouselNewsIndicators" data-slide-to="0" class="active mr-5"><label class="pb-2">Спец. предложения</label></li>
+          <li data-target="#carouselNewsIndicators" data-slide-to="1"><label class="pb-2">Новинки</label></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="special-offers mb-3">
+              <div class="specialOffers-item">
+                <a href="#" class="specialOffers-link">
+                  <img class="container" src="img/specialOffers-1.jpg" alt="slide1">
+                  <div class="caption caption-lg d-none d-lg-block">
+                    <h3>Очень крутое предложение!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-md d-none d-md-block d-lg-none">
+                    <h3>Очень крутое предложение!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-xs d-block d-md-none">
+                    <h6>Очень крутое предложение!</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="specialOffers-item">
+                <a href="#" class="specialOffers-link">
+                  <img class="container" src="img/specialOffers-2.jpg" alt="slide2">
+                  <div class="caption caption-lg d-none d-lg-block">
+                    <h3>Очень крутое предложение!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-md d-none d-md-block d-lg-none">
+                    <h3>Очень крутое предложение!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-xs d-block d-md-none">
+                    <h6>Очень крутое предложение!</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="specialOffers-item">
+                <a href="#" class="specialOffers-link">
+                  <img class="container" src="img/specialOffers-3.jpg" alt="slide3">
+                  <div class="caption caption-lg d-none d-lg-block">
+                    <h3>Очень крутое предложение!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-md d-none d-md-block d-lg-none">
+                    <h3>Очень крутое предложение!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-xs d-block d-md-none">
+                    <h6>Очень крутое предложение!</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="prev-next d-flex justify-content-between container">
+                <div class="prev-s prev">
+                  <img src="img/prev.svg" alt="prev">
+                </div>
+                <div class="next-s next">
+                  <img src="img/next.svg" alt="next">
+                </div>
+              </div>
+              <div class="dots specialOffers-dots d-none">
+                <div class="specialOffers-dot specialOffers-dot-active"></div>
+                <div class="specialOffers-dot specialOffers-dot-active"></div>
+                <div class="specialOffers-dot specialOffers-dot-active"></div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="novelties mb-3">
+              <div class="novelties-item">
+                <a href="#" class="novelties-link">
+                  <img class="container" src="img/novelties-1.jpg" alt="slide1">
+                  <div class="caption caption-lg d-none d-lg-block">
+                    <h3>Очень крутая новинка!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-md d-none d-md-block d-lg-none">
+                    <h3>Очень крутая новинка!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-xs d-block d-md-none">
+                    <h6>Очень крутая новинка!</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="novelties-item">
+                <a href="#" class="novelties-link">
+                  <img class="container" src="img/novelties-2.jpg" alt="slide2">
+                  <div class="caption caption-lg d-none d-lg-block">
+                    <h3>Очень крутая новинка!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-md d-none d-md-block d-lg-none">
+                    <h3>Очень крутая новинка!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-xs d-block d-md-none">
+                    <h6>Очень крутое новинка!</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="novelties-item">
+                <a href="#" class="novelties-link">
+                  <img class="container" src="img/novelties-3.jpg" alt="slide3">
+                  <div class="caption caption-lg d-none d-lg-block">
+                    <h3>Очень крутая новинка!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-md d-none d-md-block d-lg-none">
+                    <h3>Очень крутая новинка!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                  </div>
+                  <div class="caption caption-xs d-block d-md-none">
+                    <h6>Очень крутая новинка!</h6>
+                  </div>
+                </a>
+              </div>
+              <div class="prev-next d-flex justify-content-between container">
+                <div class="prev-n prev">
+                  <img src="img/prev.svg" alt="prev">
+                </div>
+                <div class="next-n next">
+                  <img src="img/next.svg" alt="next">
+                </div>
+              </div>
+              <div class="dots novelties-dots d-none">
+                <div class="novelties-dot novelties-dot-active"></div>
+                <div class="novelties-dot novelties-dot-active"></div>
+                <div class="novelties-dot novelties-dot-active"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews">
+      <h2 class="pt-4 pb-4 text-center">Отзывы</h2>
+      <div class="media container p-5 reviews-item rounded mb-3 d-none d-md-flex">
+        <img class="mr-4 rounded-circle avatar" src="img/avatar.svg" alt="avatar">
+        <div class="media-body blockquote">
+          <img src="img/quotes.png" alt="quotes" class="float-right quotes ml-1">
+          <h5 class="author pb-2">Билл Гейтс</h5>
+          <p>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </p>
+          <div class="blockquote-footer text-right">Кто-то знаменитый в <cite><a href="#">New-York Times</a></cite></div>
+        </div>
+      </div>
+      <div class="media container p-5 reviews-item rounded mb-3 d-none d-md-flex">
+        <img class="mr-4 rounded-circle avatar" src="img/avatar.svg" alt="avatar">
+        <div class="media-body blockquote">
+          <img src="img/quotes.png" alt="quotes" class="float-right quotes ml-1">
+          <h5 class="author pb-2">Стив Джобс</h5>
+          <p>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </p>
+          <div class="blockquote-footer text-right">Кто-то знаменитый в <cite><a href="#">New-York Times</a></cite></div>
+        </div>
+      </div>
+      <div class="media container p-5 reviews-item rounded mb-3 d-none d-md-flex">
+        <img class="mr-4 rounded-circle avatar" src="img/avatar.svg" alt="avatar">
+        <div class="media-body blockquote">
+          <img src="img/quotes.png" alt="quotes" class="float-right quotes ml-1">
+          <h5 class="author pb-2">Никола Тесла</h5>
+          <p>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </p>
+          <div class="blockquote-footer text-right">Кто-то знаменитый в <cite><a href="#">New-York Times</a></cite></div>
+        </div>
+      </div>
+      <div class="media container pt-5 reviews-item-mobile rounded mb-3 d-md-none d-block">
+        <div class="initials text-center pb-5">
+          <img class="mb-3 rounded-circle avatar" src="img/avatar.svg" alt="avatar">
+          <h5>Билл Гейтс</h5>
+          <img src="img/quotes.png" alt="quotes" class="float-right quotes ml-1">
+        </div>
+        <div class="accordion" id="accordionReviewsItem1">
+          <div class="card-header" id="headingReviews-1">
+            <button class="reviews-button border-0 bg-transparent text-white" type="button" data-toggle="collapse" data-target="#reviews-item-1" aria-expanded="true" aria-controls="reviews-item-1">
+              <p class="text-left">
+                Cras sit amet nibh libero, in gravida nulla...
+              </p>
+            </button>
+            <div id="reviews-item-1" class="collapse" aria-labelledby="headingReviews-1" data-parent="#accordionReviewsItem1">
+              <div class="media-body blockquote card-body">
+                <p class="paragraph">
+                  Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </p>
+                <div class="blockquote-footer text-right">
+                  Кто-то знаменитый в <cite><a href="#">New-York Times</a></cite>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="media container pt-5 reviews-item-mobile rounded mb-3 d-md-none d-block">
+        <div class="initials text-center pb-5">
+          <img class="mb-3 rounded-circle avatar" src="img/avatar.svg" alt="avatar">
+          <h5>Стив Джобс</h5>
+          <img src="img/quotes.png" alt="quotes" class="float-right quotes ml-1">
+        </div>
+        <div class="accordion" id="accordionReviewsItem2">
+          <div class="card-header" id="headingReviews-2">
+            <button class="reviews-button border-0 bg-transparent text-white" type="button" data-toggle="collapse" data-target="#reviews-item-2" aria-expanded="true" aria-controls="reviews-item-2">
+              <p class="text-left">
+                Cras sit amet nibh libero, in gravida nulla...
+              </p>
+            </button>
+            <div id="reviews-item-2" class="collapse" aria-labelledby="headingReviews-2" data-parent="#accordionReviewsItem2">
+              <div class="media-body blockquote card-body">
+                <p class="paragraph">
+                  Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </p>
+                <div class="blockquote-footer text-right">
+                  Кто-то знаменитый в <cite><a href="#">New-York Times</a></cite>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="media container pt-5 reviews-item-mobile rounded mb-3 d-md-none d-block">
+        <div class="initials text-center pb-5">
+          <img class="mb-3 rounded-circle avatar" src="img/avatar.svg" alt="avatar">
+          <h5>Никола Тесла</h5>
+          <img src="img/quotes.png" alt="quotes" class="float-right quotes ml-1">
+        </div>
+        <div class="accordion" id="accordionReviewsItem3">
+          <div class="card-header" id="headingReviews-3">
+            <button class="reviews-button border-0 bg-transparent text-white" type="button" data-toggle="collapse" data-target="#reviews-item-3" aria-expanded="true" aria-controls="reviews-item-3">
+              <p class="text-left">
+                Cras sit amet nibh libero, in gravida nulla...
+              </p>
+            </button>
+            <div id="reviews-item-3" class="collapse" aria-labelledby="headingReviews-3" data-parent="#accordionReviewsItem3">
+              <div class="media-body blockquote card-body">
+                <p class="paragraph">
+                  Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </p>
+                <div class="blockquote-footer text-right">
+                  Кто-то знаменитый в <cite><a href="#">New-York Times</a></cite>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="top-footer d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="logo" class="img-fluid">
+          </a>
+        </div>
+        <div class="profile mr-3">
+          <a href="#" title="Профиль">
+            <img src="img/profile.png" alt="profile">
+          </a>
+        </div>
+      </div>
+      <div class="footer-desktop justify-content-between d-md-flex d-none">
+        <div class="footer-menu m-4">
+          <h2 class="text-white">Меню</h2>
+          <ul>
+            <li><a href="#">Капучино</a></li>
+            <li><a href="#">Американо</a></li>
+            <li><a href="#">Латте</a></li>
+            <li><a href="#">Глясе</a></li>
+            <li><a href="#">Ристретто</a></li>
+            <li><a href="#">Эспрессо</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu m-4">
+          <h2 class="text-white">О нас</h2>
+          <ul>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Адреса</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Блог</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu m-4">
+          <h2 class="text-white">Контакты</h2>
+          <ul>
+            <li><span>543342, ул. Гагарина, 175</span></li>
+            <li><span>Пн-Пт: 9:00-22:00</span></li>
+            <li><span>Сб, Вс: 10:00-18:00</span></li>
+            <li><span>+7 (495) 555-55-55</span></li>
+            <li><span>+7 (495) 666-66-66</span></li>
+            <li><a href="#">info@cfbeans.ru</a></li>
+            <li><a href="#">hr@cfbeans.ru</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu m-4">
+          <h2 class="text-white">Социальные сети</h2>
+          <ul class="d-flex justify-content-start social">
+            <li><a href="#" class=""><img src="img/vk.png" alt="vk"></a></li>
+            <li><a href="#" class="p-5"><img src="img/facebook.png" alt="facebook"></a></li>
+            <li><a href="#" class=""><img src="img/instagram.png" alt="instagram"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-mobile justify-content-between d-block d-md-none">
+        <div class="accordion" id="accordionMenu">
+          <div class="footer-menu m-4 card">
+            <div class="card-header" id="headingMenu-1">
+              <h2 class="text-white mb-0">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#item-1" aria-expanded="true" aria-controls="item-1">
+                  Меню
+                </button>
+              </h2>
+            </div>
+            <div id="item-1" class="collapse" aria-labelledby="headingMenu-1" data-parent="#accordionMenu">
+              <ul class="card-body">
+                <li><a href="#">Капучино</a></li>
+                <li><a href="#">Американо</a></li>
+                <li><a href="#">Латте</a></li>
+                <li><a href="#">Глясе</a></li>
+                <li><a href="#">Ристретто</a></li>
+                <li><a href="#">Эспрессо</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-menu m-4 card">
+            <div class="card-header" id="headingMenu-2">
+              <h2 class="text-white mb-0">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#item-2" aria-expanded="true" aria-controls="item-2">
+                  О компании
+                </button>
+              </h2>
+            </div>
+            <div id="item-2" class="collapse" aria-labelledby="headingMenu-2" data-parent="#accordionMenu">
+              <ul class="card-body">
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Адреса</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Блог</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-menu m-4 card">
+            <div class="card-header" id="headingMenu-3">
+              <h2 class="text-white mb-0">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#item-3" aria-expanded="true" aria-controls="item-3">
+                  Контакты
+                </button>
+              </h2>
+            </div>
+            <div id="item-3" class="collapse" aria-labelledby="headingMenu-3" data-parent="#accordionMenu">
+              <ul class="card-body">
+                <li><span>543342, ул. Гагарина, 175</span></li>
+                <li><span>Пн-Пт: 9:00-22:00</span></li>
+                <li><span>Сб, Вс: 10:00-18:00</span></li>
+                <li><span>+7 (495) 555-55-55</span></li>
+                <li><span>+7 (495) 666-66-66</span></li>
+                <li><a href="#">info@cfbeans.ru</a></li>
+                <li><a href="#">hr@cfbeans.ru</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-menu m-4 card">
+            <div class="card-header" id="headingMenu-4">
+              <h2 class="text-white mb-0">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#item-4" aria-expanded="true" aria-controls="item-4">
+                  Социальные сети
+                </button>
+              </h2>
+            </div>
+            <div id="item-4" class="collapse" aria-labelledby="headingMenu-4" data-parent="#accordionMenu">
+              <ul class="card-body d-flex justify-content-start social">
+                <li><a href="#" class=""><img src="img/vk.png" alt="vk"></a></li>
+                <li><a href="#" class="p-5"><img src="img/facebook.png" alt="facebook"></a></li>
+                <li><a href="#" class=""><img src="img/instagram.png" alt="instagram"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="mr-3 mb-0 p-0 text-right">© CoffeeBeans, 2018 <br> Все права защищены</p>
+      </div>
+    </footer>
+  </body>
+</html>

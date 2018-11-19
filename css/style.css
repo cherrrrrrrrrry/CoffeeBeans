@@ -1,0 +1,252 @@
+body {
+	background: url(../img/bg-dark.png) repeat fixed;
+}
+
+header {
+	background-color: #3f282a;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+}
+
+.logo {
+	width: 200px;
+}
+
+.fixed-logo {
+	width: 150px;
+	transition: .25s ease;
+}
+
+.nav .dropdown-item {
+	margin: -8px 0;
+	padding: 20px 50px 20px 15px;
+	color: #3f282a;
+}
+
+.nav .dropdown-item:hover {
+	background-color: #3f282a;
+	color: white;
+}
+
+.profile img {
+	width: 50px;
+}
+
+/*Иконка профиля для мобильных версий*/
+.profile-photo {
+	width: 35px;
+	margin-right: 10px;
+}
+/*---*/
+
+.slider-item::after,
+.card-img-wrapper::after,
+.specialOffers-link::after,
+.novelties-link::after {
+	content: "";
+	background: rgba(63, 40, 42, .6);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+.menu {
+	background-color: #e4c7b6;
+}
+
+.menu h2 {
+	color: #3f282a;
+}
+
+.menu-link,
+.menu-link:hover {
+	text-decoration: none;
+	color: #e4c7b6;
+}
+
+.menu-link:hover {
+	background-color: #3f282a;
+	transition: .25s;
+}
+
+.menu-desktop .card {
+	background: url(../img/bg-dark.png) repeat;
+}
+
+.menu .card {
+	background-color: #3f282a;
+}
+
+.menu .card-img-wrapper::after {
+    bottom: 109px;
+    background-color: rgba(63, 40, 42, .25);
+}
+
+.menu .dropdown-divider {
+	border-color: #e4c7b6;
+}
+
+.news {
+	background-color: #3f282a;
+}
+
+.news .controls li {
+	list-style: none;
+	display: inline-block;
+}
+
+.news .controls label {
+	color: #b79f91;
+	font-size: 26px;
+	transition: .25s;
+	cursor: pointer;
+	border-bottom: 5px solid transparent;
+}
+
+.news .controls label:hover {
+	color: #e4c7b6;
+	border-bottom: 5px solid #e4c7b6;
+}
+
+.special-offers .specialOffers-item,
+.novelties .novelties-item {
+  	animation: fadeIn 0.5s linear;
+}
+
+.news .caption {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+	z-index: 1000;
+}
+
+.news .caption-lg {
+	top: 150px;
+}
+
+.news .caption-md {
+	top: 25%;
+}
+
+.news .caption-xs {
+	top: 40%;
+}
+
+.news .caption:hover {
+	text-decoration: none;
+}
+
+.news .prev-next {
+	position: absolute;
+}
+
+.news .prev-next {
+	top: 50%;
+}
+
+.news .prev,
+.news .next {
+	position: absolute;
+	cursor: pointer;
+}
+
+.news .prev img,
+.news .next img {
+	width: 25px;
+}
+
+.news .prev {
+	left: 5%;
+}
+
+.news .next {
+	right: 5%;
+}
+
+.reviews h2 {
+	color: #e4c7b6;
+}
+
+.reviews-item,
+.reviews-item-mobile {
+	background-color: #3f282a;
+	color: white;
+}
+
+.reviews .avatar {
+	width: 75px;
+	height: 75px;
+}
+
+.reviews .author {
+	border-bottom: 1px solid white;
+}
+
+.reviews .quotes {
+	width: 25px;
+	height: 25px;
+}
+
+.reviews .reviews-item-mobile .initials {
+	border-bottom: 1px solid white;
+}
+
+.reviews .reviews-button {
+	font-size: 20px;
+}
+
+.reviews .paragraph {
+	margin-left: -15px; 
+	margin-top: -35px;
+}
+
+footer {
+	background-color: #3f282a;
+}
+
+.top-footer {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+.footer-mobile .footer-menu button {
+	background-color: #3f282a;
+	color: white;
+	font-size: 22px;
+}
+
+.footer-desktop .footer-menu li,
+.footer-mobile .footer-menu li {
+	list-style: none;
+	color: #b79f91;
+
+}
+
+.footer-desktop .footer-menu li {
+	margin-left: -40px;
+}
+
+.footer-menu a {
+	font-size: 20px;
+	color: #b79f91;
+	text-decoration: none;
+}
+
+.footer-menu a:hover {
+	color: #e4c7b6;
+	text-decoration: none;
+	transition: .25s;
+}
+
+.footer-menu .social img { 
+	width: 40px;
+}
+
+.copyright p {
+	color: white;
+}
